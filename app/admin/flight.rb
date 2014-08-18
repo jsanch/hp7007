@@ -1,4 +1,5 @@
 ActiveAdmin.register Flight do
+  permit_params :date, :time, :destination, :memo, :status, :passengers_num, :is_reservation
 
 
   # See permitted parameters documentation:
